@@ -9,7 +9,7 @@ const { MongoClient, ServerApiVersion, ObjectId } = require("mongodb");
 // Middleware
 
 const corsOptions = {
-  origin: ["https://yoga-master-frontend-pi.vercel.app"], // Add your frontend URL with https://
+  origin: ["https://yoga-master-final-pi.vercel.app"], // Add your frontend URL with https://
   methods: ["GET", "POST", "PUT", "DELETE"], // Specify allowed methods
   allowedHeaders: ["Content-Type", "Authorization"], // Specify allowed headers
   credentials: true, // Allow credentials (cookies, etc.)
