@@ -8,9 +8,8 @@ const port = process.env.PORT || 5000;
 const { MongoClient, ServerApiVersion, ObjectId } = require("mongodb");
 // Middleware
 
-// Allow requests only from your frontend website link(s)
 const corsOptions = {
-  origin: ["http://localhost:5173"], // Add your website(s) here
+  origin: ["https://yoga-master-frontend-pi.vercel.app"], // Add your frontend URL with https://
   methods: ["GET", "POST", "PUT", "DELETE"], // Specify allowed methods
   allowedHeaders: ["Content-Type", "Authorization"], // Specify allowed headers
   credentials: true, // Allow credentials (cookies, etc.)
